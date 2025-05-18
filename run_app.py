@@ -49,6 +49,7 @@ def run_app():
     
     print("Starting Datalis - AI-Powered Financial Intelligence...")
     app = create_ui()
+    app.queue()
     app.launch(share=False)
 
 if __name__ == "__main__":
